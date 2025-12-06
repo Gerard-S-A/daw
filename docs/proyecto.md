@@ -45,8 +45,39 @@ El proyecto busca mejorar esto creando una tienda donde todos los productos cues
 - Retoques y pruebas finales: finales de diciembre – enero  
 
 ## 7. Plan de despliegue
-Aquí se detallará cómo se desplegará el proyecto:  
-- Servidor donde se ejecutará el backend  
-- Comandos para instalar dependencias y levantar la aplicación  
-- Enlaces de acceso y pruebas del sistema  
-- Capturas de pantalla del entorno funcionando
+
+El despliegue del Proyecto Integrador (tienda online con productos a 10€) se realizará en dos partes: el **backend** y el **frontend**. En esta sección explicamos de forma sencilla cómo se pondrá en marcha el proyecto usando las tecnologías trabajadas en clase.
+
+### 1. Despliegue del Backend
+
+El backend estará hecho con **Nest.js** y se conectará a una base de datos **MongoDB**.
+
+Para desplegarlo en un servidor Debian (o máquina local) seguiremos estos pasos:
+
+```bash
+# Clonar el repositorio del backend
+git clone <URL-del-backend>
+cd backend
+
+# Instalar dependencias
+npm install
+
+# Iniciar el servidor
+npm run start
+
+# Comprobar funcionamiento
+# Abrir en navegador o Postman
+http://localhost:3000
+
+# Clonar el repositorio del frontend
+git clone <URL-del-frontend>
+cd frontend
+
+# Instalar dependencias
+npm install
+
+# Iniciar el servidor de desarrollo
+ng serve
+
+# Abrir en el navegador
+http://localhost:4200
