@@ -1,4 +1,8 @@
-## Información del proyecto
+# Proyecto documental despliegue de aplicaciones Web
+## Introducción
+Breve introducción de tu proyecto (PI o bien FTP Server)
+## Documentación
+Estructura de archivos del repositorio
 
 | NOMBRE PROYECTO           | DESCRIPCIÓN / ENLACE                            |
 |---------------------------|--------------------------------------------------|
